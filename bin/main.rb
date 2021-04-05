@@ -5,7 +5,7 @@ require 'nokogiri'
 require 'byebug'
 
 # frozen_string_literal: true
-#require_relative '../lib/scraper'
+# require_relative '../lib/scraper'
 require 'webdrivers'
 require 'watir'
 

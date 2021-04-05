@@ -4,7 +4,7 @@
 - Open Terminal
 - Change directory to folder to download repository
 - Use cd <file-path>
-- Run git clone https://github.com/umairarshadbutt/Medium-Scraper-Ruby.git
+- Run git clone https://github.com/mahtsham/Web_Scraper.git
 - Install Ruby
 - Install bundle install
 - Run ruby bin/main.rb

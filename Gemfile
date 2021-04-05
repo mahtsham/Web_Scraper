@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 
+gem 'byebug'
 gem 'httparty'
 gem 'nokogiri'
-gem 'byebug'
 gem 'progress_bar'
-gem 'webdrivers'
 gem 'watir'
+gem 'webdrivers'
