@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# rubocop:disable Lint/UselessAssignment
+
 require 'httparty'
 require 'nokogiri'
 require 'webdrivers'
@@ -11,3 +13,4 @@ def scraper
   parsed_page = Nokogiri::HTML(unparsed_page)
 end
 scraper
+# rubocop:enable Lint/UselessAssignment
