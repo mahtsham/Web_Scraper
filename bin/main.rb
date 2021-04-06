@@ -1,3 +1,4 @@
 # frozen_string_literal: true
 
-puts 'hel'
+v = 'bcs'
+puts v
