@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require_relative '../lib/scraper'
+require_relative '../lib/display'
 # rubocop:disable Style/MixinUsage:
 include Display
 # rubocop:enable Style/MixinUsage:

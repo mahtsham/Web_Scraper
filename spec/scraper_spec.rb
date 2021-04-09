@@ -1,6 +1,7 @@
 # rubocop:disable Security/Open:
 
 require_relative '../lib/scraper'
+require_relative '../lib/display'
 url = 'https://www.exportleftovers.com/collections/polo-republica'
 @document = URI.open(url)
 
