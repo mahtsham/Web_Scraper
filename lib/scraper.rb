@@ -2,7 +2,7 @@
 
 require 'open-uri'
 require 'nokogiri'
-
+# rubocop:disable Style/Documentation:
 class Scrap
   attr_reader :tittle, :price, :id, :tainted, :reviews
 
@@ -14,6 +14,7 @@ class Scrap
     @reviews = reviews
   end
 
+  # rubocop:disable Security/Open:
   def data
     url = 'https://www.exportleftovers.com/collections/polo-republica'
     @document = URI.open(url)
@@ -21,6 +22,7 @@ class Scrap
     @parsed_content = Nokogiri::HTML(@content)
     @parsed_content
   end
+  # rubocop:enable Security/Open:
 
   def extract_data
     @parsed_content.css('.collection-matrix').css('.product-wrap').each do |row|
@@ -47,3 +49,4 @@ module Display
     arr
   end
 end
+# rubocop:enable Style/Documentation:

@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# rubocop:disable Security/Open:
+
 require_relative '../lib/scraper'
 url = 'https://www.exportleftovers.com/collections/polo-republica'
 @document = URI.open(url)
@@ -45,3 +47,4 @@ describe Display do
     end
   end
 end
+# rubocop:enable Security/Open:
