@@ -11,6 +11,7 @@ class Scrap
     @tainted = tainted
     @reviews = reviews
   end
+  # rubocop:enable Style/Documentation:
 
   # rubocop:disable Security/Open:
   def data
@@ -33,6 +34,7 @@ class Scrap
   end
 end
 
+# rubocop:disable Style/Documentation:
 module Display
   def data(parsed_content)
     arr = []
