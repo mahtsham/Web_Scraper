@@ -1,6 +1,5 @@
 require 'open-uri'
 require 'nokogiri'
-
 class Scrap
   attr_reader :tittle, :price, :id, :tainted, :reviews
 
