@@ -1,4 +1,3 @@
-# rubocop:disable Style/Documentation:
 module Display
   def data(parsed_content)
     arr = []
@@ -13,4 +12,4 @@ module Display
     arr
   end
 end
-# rubocop:enable Style/Documentation:
+
