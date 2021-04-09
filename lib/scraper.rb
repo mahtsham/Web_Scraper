@@ -31,4 +31,3 @@ class Scrap
     end
   end
 end
-
