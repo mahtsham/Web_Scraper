@@ -21,3 +21,13 @@ url = "https://www.exportleftovers.com/collections/polo-republica"
 @parsed_content
 end
 
+def extract_data
+    @parsed_content.css('.collection-matrix').css('.product-wrap').each do |row|
+        @tittle = row.css('.product-thumbnail__title').inner_text
+        @price = row.css('.money').inner_text
+        @id = row.css('.product-thumbnail__title').object_id
+        @tainted = row.css('.product-thumbnail__title').tainted?
+        @reviews = row.css('.product-thumbnail__review-stars').count
+    end
+end
+end
