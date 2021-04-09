@@ -1,6 +1,6 @@
 require 'open-uri'
 require 'nokogiri'
-# rubocop:disable Style/Documentation:
+
 class Scrap
   attr_reader :tittle, :price, :id, :tainted, :reviews
 
@@ -32,4 +32,4 @@ class Scrap
     end
   end
 end
-# rubocop:enable Style/Documentation:
+

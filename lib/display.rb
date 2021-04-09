@@ -12,4 +12,3 @@ module Display
     arr
   end
 end
-
