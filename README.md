@@ -1,6 +1,6 @@
 # Web_Scraper
 ## Description
-In this project, there is a web scraper code that pulls the data out of an popular ecomerce website whose name is Export_Leftover and print on terminal. Also some test are added in rspec by TDD.
+In this project, there is a web scraper code that pulls the data out of an popular ecomerce website whose name is Export_Leftover and print on terminal. Also some test are added in rspec by TDD...
 ## Setup
 - Install git
 - Open Terminal
