@@ -13,6 +13,11 @@ def initialize
 end
 
 
-
+def data
+url = "https://www.exportleftovers.com/collections/polo-republica"
+@document = URI.open(url)
+@content = @document.read
+@parsed_content = Nokogiri::HTML(@content) 
+@parsed_content
 end
 
