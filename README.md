@@ -29,7 +29,7 @@ In this project, there is a web scraper code that pulls the data out of an popul
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues](https://github.com/mahtsham/Tic_Tac_Toe/issues).
+Feel free to check the [issues](https://github.com/mahtsham/Web_Scraper/issues).
 
 ## Show your support
 
